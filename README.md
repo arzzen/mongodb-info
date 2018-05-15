@@ -1,7 +1,7 @@
 
 ## MongoDb Info
 
-[![Travis](https://api.travis-ci.org/arzzen/mongodb-info.sh.svg?branch=master)](https://travis-ci.org/arzzen/mongodb-info.sh) 
+[![Travis](https://api.travis-ci.org/arzzen/mongodb-info.svg?branch=master)](https://travis-ci.org/arzzen/mongodb-info) 
 
 > `mongodb-info` is a simple and efficient way to access stats in command line.
 
@@ -34,9 +34,9 @@
 
 ```bash
 # overall stats
-./mongodb-info.sh -s '172.17.0.61/dbname'
+./mongodb-info -s '172.17.0.61/dbname'
 # or with collection name
-./mongodb-info.sh -s '172.17.0.61/anubis' -c 'collection_name'
+./mongodb-info -s '172.17.0.61/anubis' -c 'collection_name'
 ```
 
 ## Installation
@@ -44,7 +44,7 @@
 #### Unix like OS
 
 ```bash
-git clone https://github.com/arzzen/mongodb-info.sh.git && cd mongodb-info.sh
+git clone https://github.com/arzzen/mongodb-info.git && cd mongodb-info
 sudo make install
 ```
 
@@ -104,7 +104,7 @@ This documentation is written using standard [markdown syntax](https://help.gith
 
 #### Tests
 
-[![codecov](https://codecov.io/gh/arzzen/mongodb-info.sh/branch/master/graph/badge.svg)](https://codecov.io/gh/arzzen/mongodb-info.sh)
+[![codecov](https://codecov.io/gh/arzzen/mongodb-info/branch/master/graph/badge.svg)](https://codecov.io/gh/arzzen/mongodb-info)
 
 ```bash
 make test
@@ -113,7 +113,7 @@ make test
 ## Licensing
 MIT see [LICENSE][] for the full license text.
 
-   [read this page]: http://github.com/arzzen/mongodb-info.sh/blob/master/docs/CONTRIBUTING.md
-   [landing page]: http://arzzen.github.io/mongodb-info.sh
-   [LICENSE]: https://github.com/arzzen/mongodb-info.sh/blob/master/LICENSE
+   [read this page]: http://github.com/arzzen/mongodb-info/blob/master/docs/CONTRIBUTING.md
+   [landing page]: http://arzzen.github.io/mongodb-info
+   [LICENSE]: https://github.com/arzzen/mongodb-info/blob/master/LICENSE
 

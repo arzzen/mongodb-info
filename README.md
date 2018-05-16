@@ -34,9 +34,9 @@
 
 ```bash
 # overall stats
-./mongodb-info -s '172.17.0.61/dbname'
+./mongodb-info -s '127.7.0.1/dbname'dbname'
 # or with collection name
-./mongodb-info -s '172.17.0.61/anubis' -c 'collection_name'
+./mongodb-info -s '127.7.0.1/dbname' -c 'collection_name'
 ```
 
 ## Installation

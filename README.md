@@ -34,7 +34,7 @@
 
 ```bash
 # overall stats
-./mongodb-info -s '127.7.0.1/dbname'dbname'
+./mongodb-info -s '127.7.0.1/dbname'
 # or with collection name
 ./mongodb-info -s '127.7.0.1/dbname' -c 'collection_name'
 ```
